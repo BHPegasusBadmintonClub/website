@@ -1,0 +1,25 @@
+
+nav {
+  height: 30px;
+  background: #99CCFF url(../images/structure/topleftcurve.jpg) no-repeat top left;
+}
+  nav a {	
+    font-family: Arial, Helvetica, sans-serif;	font-size: 11px;	font-style: normal;	font-weight: bold;
+      color: #003366;	text-decoration: none;
+      display: inline-block;
+      width: 24%;
+      text-align: center;
+      height: 30px;
+      line-height: 30px;
+    }
+
+    nav a:hover {
+      color: #CC0000;	text-decoration: none;
+    }
+
+    nav a.active {
+      color: white;
+    }
+    nav a.active:hover {
+      color: white;
+    }
